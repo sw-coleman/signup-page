@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'NeverGiveUp';
+    src: url('Never\ Give\ Up.otf')format('opentype');
+}
+
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.img{
+    background-image: url("img/bg.jpg");
+    background-position: left;
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.txt-banner{
+    margin-top: 9.75rem;
+    color: white;
+    background: black;
+    font-size: 45px;
+    opacity: 0.45;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: NeverGiveup;
+}
+
+.credit{
+    text-align: center;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 1em;
+    font-weight: 500;
+}
+
+a.creditlink{
+    color: white;
+}
+
+
+.form-main{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgb(238, 238, 238);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-section, .bot-section{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 10rem;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.mid-section{
+    background-color: white;
+    height: 40%;
+    box-shadow: 0px 5px 5px rgb(218, 218, 218);
+}
+
+.text-container-01{
+    
+}
+
+.text-container-02{
+
+}
