@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @font-face{
     font-family: 'NeverGiveUp';
-    src: url('Never\ Give\ Up.otf')format('opentype');
+    src: url('font/Never\ Give\ Up.otf')format('opentype');
 }
+
 
 body{
     display: flex;
@@ -35,9 +37,9 @@ body{
 .credit{
     text-align: center;
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 1em;
     font-weight: 500;
+    font-family: 'Poppins', sans-serif;
 }
 
 a.creditlink{
@@ -50,8 +52,8 @@ a.creditlink{
     flex-direction: column;
     justify-content: center;
     width: 60%;
-    background-color: rgb(225, 225, 225);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(231, 231, 231);
+    font-family: 'Poppins', sans-serif;
 }
 
 .top-section, .bot-section{
@@ -75,7 +77,7 @@ a.creditlink{
     padding-bottom: 2rem;
     padding-left: 2rem;
     padding-right: 10rem;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .mid-section{
@@ -87,16 +89,17 @@ a.creditlink{
     gap: 2rem;
 }
 
-button.create-acct{
+.create-acct{
     width: 10rem;
     height: 3rem;
     background-color: #2596be;
     border-radius: 5px;
     border: 0px;
     color: white;
+    font-size: 16px;
 }
 
-button.create-acct:hover{
+.create-acct:hover{
     scale: 0.95;
 }
 

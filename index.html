@@ -34,15 +34,15 @@
                         <form class="form-input">
                             <div class="input-label-container">
                                 <label for="firstname">FIRST NAME</label>
-                                <input type="text" id="firstname" name="firstname">
+                                <input type="text" id="firstname" name="firstname" required>
                             </div>
                             <div class="input-label-container">
-                                <label for="lastname">LAST NAME</label>
-                                <input type="text" id="lastname" name="lastname">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email" required>
                             </div>
                             <div class="input-label-container">
                                 <label for="password">PASSWORD</label>
-                                <input type="password" id="password" name="password">
+                                <input type="password" id="password" name="password" required>
                             </div>
                           </form>
                     </div>
@@ -50,23 +50,23 @@
                         <form class="form-input">
                             <div class="input-label-container">
                                 <label for="lastname">LAST NAME</label>
-                                <input type="text" id="lastname" name="lastname">
+                                <input type="text" id="lastname" name="lastname" required>
                             </div>
                             <div class="input-label-container">
                                 <label for="phone">PHONE NUMBER</label>
-                                <input type="tel" id="phone" name="phone">
+                                <input type="tel" id="phone" name="phone" required minlength="9" maxlength="9">
                             </div>
                             <div class="input-label-container">
                                 <label for="password">CONFIRM PASSWORD</label>
-                                <input type="password" id="password-conf" name="password-conf">
+                                <input type="password" id="password-conf" name="password-conf" required>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
             <div class="bot-section">
-                <button href="signup.html" class="create-acct">Create Account</button>
-                <div>Already have an account? <a href="login.html" class="log-in">Log in</a></div>
+                <div><button class="create-acct" type="submit">Create Account</button></div>
+                <div>Already have an account? <a href="" class="log-in">Log in</a></div>
             </div>
         </div>
     </body>
